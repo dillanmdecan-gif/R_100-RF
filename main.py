@@ -90,7 +90,7 @@ APP_ID     = _env("DERIV_APP_ID",    1089)
 SYMBOL     = _env("SYMBOL",          "R_100")
 
 # Signal
-MIN_CONFIDENCE  = _env("MIN_CONFIDENCE",   0.60)
+MIN_CONFIDENCE  = _env("MIN_CONFIDENCE",   0.62)
 MIN_SCORE_ALIGN = _env("MIN_SCORE_ALIGN",  0.25)   # abs(ensemble score) threshold
 DECISION_COOLDOWN = _env("DECISION_COOLDOWN", 8)   # seconds between evaluations
 
